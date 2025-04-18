@@ -46,7 +46,8 @@ function TodoList() {
   };
 
   const deleteTodo = (id) => {
-    setTodos(todos.filter((todo) => todo.id !== id));
+    const updatedTodos = todos.filter((todo) => todo.id !== id);
+    setTodos(updatedTodos);
   };
 
   const sortedTodos = [...todos].sort((a, b) => a.priority - b.priority);
