@@ -1,11 +1,12 @@
-# TodoList
+# Priority Todo List
 
-## Steps to Run Project
+## Quick Start
 
-### cd into my-app
+```bash
+cd my-app
+npm install
+npm start
 
-### npm i
-
-### npm start
+```
 
 ![Alt text](image.png)
