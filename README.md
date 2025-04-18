@@ -1,6 +1,8 @@
 # TodoList
 
+Steps to Run Project
+
 cd into my-app
-run npm i
-run npm start
+npm i
+npm start
 ![Alt text](image.png)
